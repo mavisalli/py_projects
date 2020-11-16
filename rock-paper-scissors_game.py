@@ -14,25 +14,25 @@ while True:
     pc_choice = random.choice(option)
     if choice == rock:
         if pc_choice == rock:
-            print('pc choice: rock, result: DRAW')
+            print('pc choice: rock \n result: DRAW')
         elif pc_choice == scissors:
-            print('pc choice: scissors, result: WON')
+            print('pc choice: scissors \n result: WON')
         else:
-            print('pc choice: paper, result: LOST')
+            print('pc choice: paper \n result: LOST')
     if choice == paper:
         if pc_choice == paper:
-            print('pc choice: paper, result: DRAW')
+            print('pc choice: paper \n result: DRAW')
         elif pc_choice == rock:
-            print('pc choice: rock, result: WON')
+            print('pc choice: rock \n result: WON')
         else:
-            print('pc choice: scissors, result: LOST')
+            print('pc choice: scissors \n result: LOST')
     if choice == scissors:
         if pc_choice == scissors:
-            print('pc choice: scissors, result: DRAW')
+            print('pc choice: scissors \n result: DRAW')
         elif pc_choice == rock:
-            print('pc choice: rock, result: LOST')
+            print('pc choice: rock \n result: LOST')
         else:
-            print('pc choice: paper, result: WON')
+            print('pc choice: paper \n result: WON')
             
     if choice == 'q':
             print('exiting...')
