@@ -16,6 +16,7 @@ while True:
         time.sleep(1)
         iban = int(input('Tebrikler, 10 tl kazandiniz, iban numaranizi basinda TR olmadan giriniz!'))
         print('10 tl', iban, 'nolu ibana yatirilmistir')
+        time.sleep(20)
         break
     elif tahmin > sayi:
         print('sorgulaniyor...')
