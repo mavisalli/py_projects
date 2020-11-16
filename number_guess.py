@@ -12,18 +12,19 @@ while True:
     tahmin = int(input('tahmininiz: '))
     
     if tahmin == sayi:
-        print('sorgulaniyor')
+        print('sorgulaniyor...')
         time.sleep(1)
-        print('Tebrikler, 10 tl kazandiniz')
+        iban = int(input('Tebrikler, 10 tl kazandiniz, iban numaranizi basinda TR olmadan giriniz!'))
+        print('10 tl', iban, 'nolu ibana yatirilmistir')
         break
     elif tahmin > sayi:
-        print('sorgulaniyor')
+        print('sorgulaniyor...')
         time.sleep(1)
         tahmin_hakki -=1
         print('Daha kucuk bir sayi tahmin ediniz')
         print('Kalan tahmin hakkınız: ', tahmin_hakki)
     else:
-        print('sorgulaniyor')
+        print('sorgulaniyor...')
         time.sleep(1)
         tahmin_hakki -=1
         print('Daha buyuk bir sayi tahmin ediniz')
